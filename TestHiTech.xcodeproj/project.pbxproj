@@ -7,18 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A08340572B82B3DA00E0F348 /* ChatInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08340562B82B3DA00E0F348 /* ChatInput.swift */; };
 		A0BFF03A2B7FB23A00852DEC /* TestHiTechApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BFF0392B7FB23A00852DEC /* TestHiTechApp.swift */; };
 		A0BFF03C2B7FB23A00852DEC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BFF03B2B7FB23A00852DEC /* ContentView.swift */; };
 		A0BFF03E2B7FB23C00852DEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0BFF03D2B7FB23C00852DEC /* Assets.xcassets */; };
 		A0BFF0412B7FB23C00852DEC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0BFF0402B7FB23C00852DEC /* Preview Assets.xcassets */; };
+		A0BFF04A2B7FB29700852DEC /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BFF0492B7FB29700852DEC /* TabBarView.swift */; };
+		A0BFF04D2B7FB46900852DEC /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BFF04C2B7FB46900852DEC /* SettingsView.swift */; };
+		A0BFF0502B7FB81F00852DEC /* CallsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BFF04F2B7FB81F00852DEC /* CallsView.swift */; };
+		A0BFF0532B7FBA3500852DEC /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BFF0522B7FBA3500852DEC /* CameraView.swift */; };
+		A0BFF0562B7FBEA700852DEC /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BFF0552B7FBEA700852DEC /* StatusView.swift */; };
+		A0BFF0592B7FBF6C00852DEC /* ChatListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BFF0582B7FBF6C00852DEC /* ChatListView.swift */; };
+		A0BFF05E2B7FC14B00852DEC /* MessageStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BFF05D2B7FC14B00852DEC /* MessageStruct.swift */; };
+		A0BFF0612B7FC34300852DEC /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BFF0602B7FC34300852DEC /* ChatCell.swift */; };
+		A0BFF0632B7FC35700852DEC /* ChatStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BFF0622B7FC35700852DEC /* ChatStruct.swift */; };
+		A0BFF0662B7FC59E00852DEC /* ChatDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BFF0652B7FC59E00852DEC /* ChatDetailView.swift */; };
+		A0BFF0692B7FD36400852DEC /* ColorHexing.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BFF0682B7FD36400852DEC /* ColorHexing.swift */; };
+		A0BFF06B2B7FD3A100852DEC /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BFF06A2B7FD3A100852DEC /* MessageCell.swift */; };
+		A0BFF06F2B7FD6EA00852DEC /* ContactInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BFF06E2B7FD6EA00852DEC /* ContactInfoView.swift */; };
+		A0BFF0712B7FD6F600852DEC /* EditContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BFF0702B7FD6F600852DEC /* EditContactView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A08340562B82B3DA00E0F348 /* ChatInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatInput.swift; sourceTree = "<group>"; };
 		A0BFF0362B7FB23A00852DEC /* TestHiTech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestHiTech.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0BFF0392B7FB23A00852DEC /* TestHiTechApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHiTechApp.swift; sourceTree = "<group>"; };
 		A0BFF03B2B7FB23A00852DEC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A0BFF03D2B7FB23C00852DEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0BFF0402B7FB23C00852DEC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A0BFF0492B7FB29700852DEC /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		A0BFF04C2B7FB46900852DEC /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A0BFF04F2B7FB81F00852DEC /* CallsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallsView.swift; sourceTree = "<group>"; };
+		A0BFF0522B7FBA3500852DEC /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		A0BFF0552B7FBEA700852DEC /* StatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
+		A0BFF0582B7FBF6C00852DEC /* ChatListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListView.swift; sourceTree = "<group>"; };
+		A0BFF05D2B7FC14B00852DEC /* MessageStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageStruct.swift; sourceTree = "<group>"; };
+		A0BFF0602B7FC34300852DEC /* ChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
+		A0BFF0622B7FC35700852DEC /* ChatStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatStruct.swift; sourceTree = "<group>"; };
+		A0BFF0652B7FC59E00852DEC /* ChatDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatDetailView.swift; sourceTree = "<group>"; };
+		A0BFF0682B7FD36400852DEC /* ColorHexing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorHexing.swift; sourceTree = "<group>"; };
+		A0BFF06A2B7FD3A100852DEC /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		A0BFF06E2B7FD6EA00852DEC /* ContactInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactInfoView.swift; sourceTree = "<group>"; };
+		A0BFF0702B7FD6F600852DEC /* EditContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditContactView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +81,10 @@
 		A0BFF0382B7FB23A00852DEC /* TestHiTech */ = {
 			isa = PBXGroup;
 			children = (
+				A0BFF0672B7FD35200852DEC /* Extensions */,
+				A0BFF05A2B7FC10F00852DEC /* Entity */,
+				A0BFF0482B7FB27800852DEC /* MainViews */,
+				A0BFF0472B7FB24800852DEC /* TabBar */,
 				A0BFF0392B7FB23A00852DEC /* TestHiTechApp.swift */,
 				A0BFF03B2B7FB23A00852DEC /* ContentView.swift */,
 				A0BFF03D2B7FB23C00852DEC /* Assets.xcassets */,
@@ -65,6 +99,137 @@
 				A0BFF0402B7FB23C00852DEC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A0BFF0472B7FB24800852DEC /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				A0BFF0492B7FB29700852DEC /* TabBarView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		A0BFF0482B7FB27800852DEC /* MainViews */ = {
+			isa = PBXGroup;
+			children = (
+				A0BFF0572B7FBF5900852DEC /* ChatView */,
+				A0BFF0542B7FBE9500852DEC /* StatusView */,
+				A0BFF0512B7FBA1100852DEC /* CameraView */,
+				A0BFF04E2B7FB80E00852DEC /* CallsView */,
+				A0BFF04B2B7FB45800852DEC /* SettingsView */,
+			);
+			path = MainViews;
+			sourceTree = "<group>";
+		};
+		A0BFF04B2B7FB45800852DEC /* SettingsView */ = {
+			isa = PBXGroup;
+			children = (
+				A0BFF04C2B7FB46900852DEC /* SettingsView.swift */,
+			);
+			path = SettingsView;
+			sourceTree = "<group>";
+		};
+		A0BFF04E2B7FB80E00852DEC /* CallsView */ = {
+			isa = PBXGroup;
+			children = (
+				A0BFF04F2B7FB81F00852DEC /* CallsView.swift */,
+			);
+			path = CallsView;
+			sourceTree = "<group>";
+		};
+		A0BFF0512B7FBA1100852DEC /* CameraView */ = {
+			isa = PBXGroup;
+			children = (
+				A0BFF0522B7FBA3500852DEC /* CameraView.swift */,
+			);
+			path = CameraView;
+			sourceTree = "<group>";
+		};
+		A0BFF0542B7FBE9500852DEC /* StatusView */ = {
+			isa = PBXGroup;
+			children = (
+				A0BFF0552B7FBEA700852DEC /* StatusView.swift */,
+			);
+			path = StatusView;
+			sourceTree = "<group>";
+		};
+		A0BFF0572B7FBF5900852DEC /* ChatView */ = {
+			isa = PBXGroup;
+			children = (
+				A0BFF06D2B7FD6D600852DEC /* ContactInfoView */,
+				A0BFF06C2B7FD6CA00852DEC /* EditContactView */,
+				A0BFF0642B7FC58100852DEC /* ChatDetailView */,
+				A0BFF05F2B7FC32000852DEC /* SubViews */,
+				A0BFF0582B7FBF6C00852DEC /* ChatListView.swift */,
+			);
+			path = ChatView;
+			sourceTree = "<group>";
+		};
+		A0BFF05A2B7FC10F00852DEC /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				A0BFF05C2B7FC13700852DEC /* MessageStruct */,
+				A0BFF05B2B7FC12200852DEC /* ChatStruct */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		A0BFF05B2B7FC12200852DEC /* ChatStruct */ = {
+			isa = PBXGroup;
+			children = (
+				A0BFF0622B7FC35700852DEC /* ChatStruct.swift */,
+			);
+			path = ChatStruct;
+			sourceTree = "<group>";
+		};
+		A0BFF05C2B7FC13700852DEC /* MessageStruct */ = {
+			isa = PBXGroup;
+			children = (
+				A0BFF05D2B7FC14B00852DEC /* MessageStruct.swift */,
+			);
+			path = MessageStruct;
+			sourceTree = "<group>";
+		};
+		A0BFF05F2B7FC32000852DEC /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				A0BFF0602B7FC34300852DEC /* ChatCell.swift */,
+				A0BFF06A2B7FD3A100852DEC /* MessageCell.swift */,
+				A08340562B82B3DA00E0F348 /* ChatInput.swift */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		A0BFF0642B7FC58100852DEC /* ChatDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				A0BFF0652B7FC59E00852DEC /* ChatDetailView.swift */,
+			);
+			path = ChatDetailView;
+			sourceTree = "<group>";
+		};
+		A0BFF0672B7FD35200852DEC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A0BFF0682B7FD36400852DEC /* ColorHexing.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A0BFF06C2B7FD6CA00852DEC /* EditContactView */ = {
+			isa = PBXGroup;
+			children = (
+				A0BFF0702B7FD6F600852DEC /* EditContactView.swift */,
+			);
+			path = EditContactView;
+			sourceTree = "<group>";
+		};
+		A0BFF06D2B7FD6D600852DEC /* ContactInfoView */ = {
+			isa = PBXGroup;
+			children = (
+				A0BFF06E2B7FD6EA00852DEC /* ContactInfoView.swift */,
+			);
+			path = ContactInfoView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +303,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0BFF03C2B7FB23A00852DEC /* ContentView.swift in Sources */,
+				A0BFF0692B7FD36400852DEC /* ColorHexing.swift in Sources */,
+				A0BFF0502B7FB81F00852DEC /* CallsView.swift in Sources */,
+				A0BFF0632B7FC35700852DEC /* ChatStruct.swift in Sources */,
+				A0BFF04D2B7FB46900852DEC /* SettingsView.swift in Sources */,
+				A0BFF0612B7FC34300852DEC /* ChatCell.swift in Sources */,
+				A0BFF05E2B7FC14B00852DEC /* MessageStruct.swift in Sources */,
+				A0BFF0532B7FBA3500852DEC /* CameraView.swift in Sources */,
+				A0BFF0592B7FBF6C00852DEC /* ChatListView.swift in Sources */,
+				A0BFF0562B7FBEA700852DEC /* StatusView.swift in Sources */,
+				A08340572B82B3DA00E0F348 /* ChatInput.swift in Sources */,
+				A0BFF0662B7FC59E00852DEC /* ChatDetailView.swift in Sources */,
+				A0BFF04A2B7FB29700852DEC /* TabBarView.swift in Sources */,
 				A0BFF03A2B7FB23A00852DEC /* TestHiTechApp.swift in Sources */,
+				A0BFF0712B7FD6F600852DEC /* EditContactView.swift in Sources */,
+				A0BFF06B2B7FD3A100852DEC /* MessageCell.swift in Sources */,
+				A0BFF06F2B7FD6EA00852DEC /* ContactInfoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +455,7 @@
 				DEVELOPMENT_TEAM = 8Z9CU7FVMB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(MARKETING_VERSION)";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +485,7 @@
 				DEVELOPMENT_TEAM = 8Z9CU7FVMB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(MARKETING_VERSION)";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
